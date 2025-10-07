@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F7E5D2; 
+    padding: 15px 40px;
+}
+#header div{
+    width: 24%;
+}
+#header div img{
+    width: 100%;
+}
+#menu{
+
+    text-align: right;
+}
+
+.icons,.User-action{
+    width: 100% !important;
+    text-align: right;
+}
+.logo{
+  width: 50%;
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+.logo .big{
+  font-size: 60px;
+  font-weight: bold;
+}
+.logo .cafe{
+  color: gray;
+  font-family: "Georgia",serif;
+  font-style: italic;
+  margin-left: 5px;
+}
+#navbar nav a{
+  font-size: 20px;
+  width: 100%;
+    color: black;
+    margin: 0px 10px;
+    text-decoration: none;
+    text-align: right;
+}
+.Useraction{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+}
+.User-action a{
+  text-decoration: none;
+  color: #555;
+}
+.User-action a:hover {
+  color: #000;
+}
+.icons{
+  font-size: 18px;
+  align-items: center;
+  gap: 15px;
+  color: #333;
+}
+.icons a{
+  text-decoration: none;
+  color: #555;
+}
+#navbar
+{
+  display: none;
+} 
+#menu{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+}
+
+#spot{
+  background-attachment: fixed;
+  background-image: url("Img/c837a6_3072f98b6961440ca0c47ce752c6d052~mv2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+#spot button{
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: 2px solid #060606;
+  background: transparent;
+  cursor: pointer;
+  width: 20%;
+  font-size: 20px;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+#content, #content2,#content3 {
+     display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+}
+#content .img1 {
+    flex: 1 1 400px;     
+  text-align: right;   
+  padding: 0 20px;
+}
+#content .Eat {
+    flex: 1 1 400px;
+  padding: 0 20px;
+  font-size: medium;
+
+}
+#content .Eat button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: 2px solid #333;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+#content2 .img2 {
+    flex: 1 1 400px;      
+  text-align: left;   
+  padding: 0 20px;
+}
+#content2 .Drink {
+    flex: 1 1 400px;
+  padding: 0 20px;
+  font-size: medium;
+  text-align: right;
+
+}
+#content2 .Drink button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: 2px solid #333;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+#content3 .img3 {
+    flex: 1 1 400px;      
+  text-align: left;   
+  padding: 0 20px;
+}
+#content3 .Enjoy {
+    flex: 1 1 400px;
+  padding: 0 20px;
+  font-size: medium;
+  text-align: left;
+
+}
+#content3 .Enjoy button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: 2px solid #333;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.Enjoy h1, .Eat h1, .Drink h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.Enjoy h2, .Eat h2, .Drink h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.Enjoy p, .Eat p, .Drink p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  text-align: center;
+}
+#Drop h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#Drop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:beige ;
+}
+
+#address, #hours {
+  flex: 1;
+  padding: 0 20px;
+  text-align: center;
+  
+}
+
+#address h2, #hours h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+#address p, #hours p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+#line {
+            border: 2px solid black;
+            display: inline;
+            padding: 30px 0px;
+            margin-bottom: 30px;
+        }
+
+
+#address, #hours, #line {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#Drop {
+  flex-direction: column;
+}
+#imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+#imgs img {
+  width: 20%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width:1300px)
+{
+    #menu{
+        display: none;
+    }
+    #icons{
+        text-align: right;
+        width: 24% !important;
+    }
+    #navbar{
+        display: block;
+    }
+    #header div img{
+    width: 50%;
+    }
+#content2 .img2 {
+  order: 1 !important;
+}
+ #content2 .Drink {
+  order: 2 !important;
+}
+}
+@media only screen and (min-width:768px)
+{
+    #menu{
+        display: none;
+    }
+    #icons{
+        text-align: right;
+        width: 24% !important;
+    }
+    #navbar{
+        display: block;
+    }
+    #header div img{
+    width: 50%;
+}
+#content .Eat button, #content3 .Enjoy button {
+  margin-left: 40%;
+  text-align: center;
+}
+#content2 .Drink button {
+  margin-right: 40%;
+  text-align: center;
+}
+#content2 .Drink {
+  order: 1;
+}
+#content2 .img2 {
+  order: 2;
+}
+}
+#footer{
+  background-color: #404D3C;
+  height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 50px 0px 0px  0px;
+    color: white;
+}
+
+#footer .New {
+  font-size: 20px;
+   width: 30%;
+   text-align: left;
+}
+#footer input[type="email"]{
+    padding:10px 15px;
+    font-size: 20px;
+  }
+#Sub {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background: transparent;
+  cursor: pointer;
+  width: 35%;
+  font-size: 20px;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#footer .Talk {
+  font-size: 20px;
+     width: 30%;
+   text-align: center;
+}
+#footer .Follow {
+  font-size: 20px;
+     width: 20%;
+   text-align: right;
+}
