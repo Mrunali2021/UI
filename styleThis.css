@@ -131,11 +131,21 @@ body {
   background: transparent;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#content .img1 img{
+    width: 100%;
+  height: 100%;
 }
 #content2 .img2 {
     flex: 1 1 400px;      
   text-align: left;   
   padding: 0 20px;
+}
+#content2 .img2 img{
+    width: 100%;
+  height: 100%;
 }
 #content2 .Drink {
     flex: 1 1 400px;
@@ -151,6 +161,8 @@ body {
   background: transparent;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (min-width:1200px)
@@ -211,8 +223,8 @@ body {
 
 #footer .New {
   font-size: 20px;
-   width: 30%;
    text-align: left;
+   margin-bottom: 10px;
 }
 #footer input[type="email"]{
     padding:10px 15px;
@@ -221,10 +233,9 @@ body {
 #Sub {
   padding: 12px 25px;
   font-size: 1rem;
-  border: 2px solid #060606;
   background: transparent;
   cursor: pointer;
-  width: 30%;
+  width: 150px;
   font-size: 20px;
   color: #fff;
   transition: background-color 0.3s, color 0.3s;
@@ -232,11 +243,10 @@ body {
 
 #footer .Talk {
   font-size: 20px;
-     width: 30%;
    text-align: center;
 }
 #footer .Follow {
   font-size: 20px;
-     width: 20%;
    text-align: right;
+   margin-bottom: 10px;
 }

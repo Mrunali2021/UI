@@ -170,8 +170,8 @@ background-color: #FBF2E8;
 
 #footer .New {
   font-size: 20px;
-   width: 30%;
    text-align: left;
+   margin-bottom: 10px;
 }
 #footer input[type="email"]{
     padding:10px 15px;
@@ -180,10 +180,9 @@ background-color: #FBF2E8;
 #Sub {
   padding: 12px 25px;
   font-size: 1rem;
-  border: 2px solid #060606;
   background: transparent;
   cursor: pointer;
-  width: 30%;
+  width: 150px;
   font-size: 20px;
   color: #fff;
   transition: background-color 0.3s, color 0.3s;
@@ -191,11 +190,10 @@ background-color: #FBF2E8;
 
 #footer .Talk {
   font-size: 20px;
-     width: 30%;
    text-align: center;
 }
 #footer .Follow {
   font-size: 20px;
-     width: 20%;
    text-align: right;
+   margin-bottom: 10px;
 }
